@@ -7,7 +7,12 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import { TodoItemsContext } from "./store/todo-items-store";
 
 function App() {
-  const [todoItems, setTodoItems] = useState([]);
+  const [todoItems, setTodoItems] = useState([
+    {
+      name: "Buy Ghee",
+      dueDate: "Today",
+    },
+  ]);
 
   const handleNewItems = (itemName, itemDueDate) => {
     const newTodoItems = [
@@ -22,19 +27,17 @@ function App() {
     setTodoItems(newTodoItems);
   };
 
-  const defaultTodoItems = [{ name: 'Buy Ghee', dueDate: 'Today' }];
-
   return (
-    <TodoItemsContext.Provider value={[defaultTodoItems]}>
-    <center className="todo-container">
-      <AppName />
-      <AddTodo onNewItem={handleNewItems} />
-      <WelcomeMessage todoItems={todoItems}></WelcomeMessage>
-      <TodoItems
-        todoItems={todoItems}
-        onDeleteClick={handleDeleteItem}
-      ></TodoItems>
-    </center>
+    <TodoItemsContext.Provider value={todoItems}>
+      <center className="todo-container">
+        <AppName />
+
+        <AddTodo onNewItem={handleNewItems} />
+
+        <WelcomeMessage todoItems={todoItems} />
+
+        <TodoItems onDeleteClick={handleDeleteItem} />
+      </center>
     </TodoItemsContext.Provider>
   );
 }
