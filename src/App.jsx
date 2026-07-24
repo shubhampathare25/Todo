@@ -14,7 +14,7 @@ function App() {
     },
   ]);
 
-  const handleNewItems = (itemName, itemDueDate) => {
+  const addNewItem = (itemName, itemDueDate) => {
     const newTodoItems = [
       ...todoItems,
       { name: itemName, dueDate: itemDueDate },
@@ -22,19 +22,27 @@ function App() {
     setTodoItems(newTodoItems);
   };
 
-  const handleDeleteItem = (todoItemName) => {
+  const deleteItem = (todoItemName) => {
     const newTodoItems = todoItems.filter((item) => item.name !== todoItemName);
     setTodoItems(newTodoItems);
   };
 
   return (
-    <TodoItemsContext.Provider value={todoItems}>
+    <TodoItemsContext.Provider
+      value={{
+        todoItems,
+        addNewItem,
+        deleteItem,
+      }}
+    >
       <center className="todo-container">
         <AppName />
-        <AddTodo onNewItem={handleNewItem} /><WelcomeMessage></WelcomeMessage>
-        <TodoItems 
-        onDeleteClick={handleDeleteItem} >
-        </TodoItems>
+        {
+          
+        }
+        <AddTodo onNewItem={addNewItem} />
+        <WelcomeMessage />
+        <TodoItems />
       </center>
     </TodoItemsContext.Provider>
   );
