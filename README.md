@@ -1,16 +1,47 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Todo application built with React to help users manage their daily tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Task Management:** Easily add and delete tasks.
+* **Responsive Design:** Works smoothly on both desktop and mobile devices.
+* **Clean UI:** Simple and user-friendly interface.
+* **Fast Development:** Built using React and Vite.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* CSS3
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Follow the steps below to run the project locally.
+
+### Clone the Repository
+
+git clone [https://github.com/shubhampathare25/Calculator.git](https://github.com/shubhampathare25/Calculator.git)
+cd Projects/1-todo-app-version-one
+Install Dependencies
+Bash
+npm install
+Run Development Server
+Bash
+npm run dev
+Open your browser and visit:
+http://localhost:5173
+
+Project Structure:
+Plaintext
+todo-app/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+└── vite.config.js
+Preview:
+<img width="755" height="310" alt="Screenshot 2026-07-26 131135" src="https://github.com/user-attachments/assets/7761d47b-75ea-4d5a-b304-ef15966f48f9" />
+
