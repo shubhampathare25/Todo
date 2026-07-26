@@ -33,6 +33,7 @@ Open your browser and visit:
 http://localhost:5173
 
 Project Structure:
+```
 Plaintext
 todo-app/
 ├── src/
@@ -42,6 +43,7 @@ todo-app/
 │   └── main.jsx
 ├── package.json
 └── vite.config.js
+```
 Preview:
 <img width="755" height="310" alt="Screenshot 2026-07-26 131135" src="https://github.com/user-attachments/assets/7761d47b-75ea-4d5a-b304-ef15966f48f9" />
 
