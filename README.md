@@ -2,6 +2,9 @@
 
 A modern and responsive Todo application built with React to help users manage their daily tasks efficiently.
 
+## Live Demo
+https://todo-rea-app-95.vercel.app/
+
 ## Features
 
 * **Task Management:** Easily add and delete tasks.
