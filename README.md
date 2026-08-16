@@ -59,7 +59,8 @@ todo-app/
 ```
 ## Preview
 ```
-<img width="755" height="310" alt="Screenshot 2026-07-26 131135" src="https://github.com/user-attachments/assets/7761d47b-75ea-4d5a-b304-ef15966f48f9" />
+<img width="952" height="439" alt="image" src="https://github.com/user-attachments/assets/ceebc21d-04c2-41ce-9f95-0171e67c7416" />
+
 ```
 ## Usage
 
