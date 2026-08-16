@@ -1,4 +1,4 @@
-# Todo App
+## Todo App
 
 A modern and responsive Todo application built with React to help users manage their daily tasks efficiently.
 
@@ -22,20 +22,30 @@ https://todo-rea-app-95.vercel.app/
 
 Follow the steps below to run the project locally.
 
-### Clone the Repository
+### Installation
+1. Clone the repository
+```
+git clone (https://github.com/shubhampathare25/Todo.git)
+```
+2. Navigate to the project directory
 
-git clone [https://github.com/shubhampathare25/Calculator.git](https://github.com/shubhampathare25/Calculator.git)
-cd Projects/1-todo-app-version-one
-Install Dependencies
-Bash
-npm install
-Run Development Server
-Bash
-npm run dev
-Open your browser and visit:
-http://localhost:5173
+       * cd Projects/1-todo-app-version-one
+   
+3. Install Dependencies
+ 
+   
+       * npm install
+   
+5. Run Development Server
+   
+   
+       * npm run dev
+   
+7. Open your browser and visit:
+   ```
+   (https://todo-rea-app-95.vercel.app/)
 
-Project Structure:
+## Project Structure
 ```
 Plaintext
 todo-app/
@@ -47,6 +57,24 @@ todo-app/
 ├── package.json
 └── vite.config.js
 ```
-Preview:
+## Preview
+```
 <img width="755" height="310" alt="Screenshot 2026-07-26 131135" src="https://github.com/user-attachments/assets/7761d47b-75ea-4d5a-b304-ef15966f48f9" />
+```
+## Usage
+
+
+   * Add a new task by typing it into the input box and clicking the Add button.
+
+   * Mark tasks as completed once done.
+
+   * Delete tasks that are no longer needed.
+
+## Future Enhancements
+
+  * Add Local Storage so tasks are saved even after refreshing the page.
+
+  *  Add an option to edit existing tasks.
+
+  *  Improve UI with dark/light mode.
 
