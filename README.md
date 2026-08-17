@@ -42,8 +42,8 @@ git clone (https://github.com/shubhampathare25/Todo.git)
        * npm run dev
    
 7. Open your browser and visit:
-   ```
-   (https://todo-rea-app-95.vercel.app/)
+   
+   https://todo-rea-app-95.vercel.app/
 
 ## Project Structure
 ```
@@ -58,10 +58,9 @@ todo-app/
 └── vite.config.js
 ```
 ## Preview
-```
-<img width="952" height="439" alt="image" src="https://github.com/user-attachments/assets/ceebc21d-04c2-41ce-9f95-0171e67c7416" />
 
-```
+<img width="952" height="439" alt="Screenshot 2026-08-16 224601" src="https://github.com/user-attachments/assets/f0c4322f-5395-4aba-ab62-5a48c1a7be64" />
+
 ## Usage
 
 
